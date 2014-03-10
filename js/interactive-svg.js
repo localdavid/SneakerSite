@@ -1,6 +1,8 @@
 $(function(){
 
-	$("#stage").load('interactive.svg',function(response){
+	// jQuery.load loads the SVG file into our #stage div and give it the class svgLoaded which we’ll later use to trigger our intro animation
+	
+	$("#stage").load('stripe1.svg',function(response){
 
 		$(this).addClass("svgLoaded");
 		
