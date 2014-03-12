@@ -7,14 +7,12 @@ body {
 	text-align: center;
 }
 
-.stripe {
-	width: 200px;
-	height: 200px;
-	background-color: green;
-}
-
 #box {
 	width: 200px;
 	height: 20px;
 	background-color: blue;
+}
+
+#stripe { 
+    transform-origin: 135px 396px;
 }
