@@ -7,17 +7,6 @@ body {
 	text-align: center;
 }
 
-div.box {
-	width: 200px;
-	height: 20px;
-	background-color: orange;
-}
-
-div.box:hover {
-	background-color: red;
-}
-
-
 
 #object {
 	fill: red;
