@@ -7,16 +7,33 @@ body {
 	text-align: center;
 }
 
-#box {
+div.box {
 	width: 200px;
 	height: 20px;
+	background-color: orange;
+}
+
+div.box:hover {
+	background-color: red;
+}
+
+
+
+#object {
+	fill: red;
+}
+
+#object:hover {
+	fill: blue;
+}
+
+.stripe-path {
 	background-color: blue;
 }
 
-#stripe { 
-    transform-origin: 135px 396px;
+.stripe-path:hover {
+	background-color: blue;
 }
-
 
 /* This should make the stripe half size when it loads, I think. */
 [id$=stripe] {
