@@ -7,7 +7,7 @@ body {
 	text-align: center;
 }
 
-
+/* Object is the name of the stripe path */
 #object {
 	fill: red;
 }
@@ -16,18 +16,5 @@ body {
 	fill: blue;
 }
 
-.stripe-path {
-	background-color: blue;
-}
 
-.stripe-path:hover {
-	background-color: blue;
-}
 
-/* This should make the stripe half size when it loads, I think. */
-[id$=stripe] {
-  -webkit-transform: scale(0.5, 0.5);
-  -moz-transform: scale(0.5, 0.5);
-  -ms-transform: scale(0.5, 0.5);
-  -o-transform: scale(0.5, 0.5);
-  transform: scale(0.5, 0.5); }
