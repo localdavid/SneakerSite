@@ -1,6 +1,6 @@
 #stage {
     width: 1024px;
-    height: 1386px;
+    height: 500px;
 }
 
 body {
@@ -14,6 +14,17 @@ body {
 
 #object:hover {
 	fill: blue;
+}
+
+/* Swatch/button for stripe */
+#swatch {
+	width: 200px;
+	height: 80px;
+	background-color: #c47676
+}
+
+#swatch.one{
+	background-color: blue;
 }
 
 
