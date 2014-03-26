@@ -7,25 +7,63 @@ body {
 	text-align: center;
 }
 
-/* Object is the name of the stripe path */
-#object {
-	fill: red;
-}
 
-#object:hover {
-	fill: blue;
-}
 
-/* Swatch/button for stripe */
-#swatch {
-	width: 200px;
-	height: 80px;
-	background-color: #c47676
-}
+/* Object styling (Object is the name of the stripe path) */
+	
+	#object {
+		fill: red;
+	}
+	
+	.clicked {
+		fill: blue;
+	}
 
-#swatch.one{
-	background-color: blue;
-}
+
+/* Button styling */
+
+	/* Swatch/button for stripe */
+	#swatch {
+		  background: #1cd1ce;
+		  border: 2px solid #eee;
+		  height: 38px;
+		  width: 125px;
+		  margin: 50px 0 0 50px;
+		  overflow: hidden;
+		  display: block;
+		  text-align: center;
+		  line-height: 38px;
+		 
+		  /*Rounded Corners*/
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+		 border-radius: 10px;
+	  
+		 /*Gradient*/
+		 background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		 background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		 background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		 background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		 background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		  
+		 /*Shadow*/
+		 -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+		 -moz-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+		 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+		 
+		 /*Transition*/
+		-webkit-transition: All 0.5s ease;
+		-moz-transition: All 0.5s ease;
+		-o-transition: All 0.5s ease;
+		-ms-transition: All 0.5s ease;
+		transition: All 0.5s ease;
+		}
+	
+	#swatch:hover {
+		background: #18a5a3
+		}
+
+
 
 
 
