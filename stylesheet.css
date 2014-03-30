@@ -12,12 +12,22 @@ body {
 /* Object styling (Object is the name of the stripe path) */
 	
 	#object {
-		fill: red;
+		fill: black;
 	}
 	
-	.clicked {
-		fill: blue;
+
+	
+/* test box */
+	.test_box {
+		width: 100px;
+		height: 100px;
+		background: blue;
 	}
+
+	.clicked {
+		background: black;
+	}
+
 
 
 /* Button styling */
